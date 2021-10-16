@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="ble_not_supported">不支持BLE</string>
+    <string name="fine_location_denied">无法获取位置</string>
+    <string name="bt_adapter_not_init">蓝牙适配器未初始化</string>
+    <string name="label_device_address">设备地址</string>
+    <string name="label_state">状态</string>
+    <string name="connected">已连接</string>
+    <string name="disconnected">已断开</string>
+    <string name="title_devices">设备扫描</string>
+    <string name="error_bluetooth_not_supported">不支持蓝牙</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">连接</string>
+    <string name="menu_disconnect">断开</string>
+    <string name="menu_scan">扫描</string>
+    <string name="menu_stop">停止</string>
+    <string name="control_mode">控制模式</string>
+    <string name="auto_mode">自动</string>
+    <string name="manual_mode_open">手动开</string>
+    <string name="manual_mode_stop">手动关</string>
+    <string name="access_failed">操作失败，请重试</string>
+    <string name="result_code_invalid">ResultCode异常！</string>
+    <string name="invalid_response">响应数据不合法，请重试</string>
+    <string name="access_success">操作成功</string>
+    <string name="access_success_with_refresh">操作成功，2秒后请刷新！</string>
+    <string name="init_complete">获取参数成功</string>
+    <string name="_00">00</string>
+    <string name="_0">0</string>
+    <string name="open">开启</string>
+    <string name="stop">关闭</string>
+    <string name="date_time">YYYY-MM-DD HH:MM MON</string>
+    <string name="title_activity_period_setting">PeriodSettingActivity</string>
+    <string name="title_activity_system_setting">系统设置</string>
+    <string name="start_time">开始时间</string>
+    <string name="hour">时</string>
+    <string name="second">秒</string>
+    <string name="minute">分</string>
+    <string name="stop_time">结束时间</string>
+    <string name="start_duration_second">开</string>
+    <string name="stop_duration_minute">关</string>
+    <string name="submit">确认</string>
+    <string name="xx">xx</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="_20">20</string>
+    <string name="time_setting">时间配置</string>
+    <string name="error_setting_info">故障信息(0):</string>
+    <string name="refresh_error">刷新故障信息</string>
+    <string name="now_date_time">当前时间</string>
+    <string name="invalid_number">请输入数字</string>
+    <string name="lifetime">加湿片剩余寿命</string>
+    <string name="reset_lifetime">重置</string>
+    <string name="refresh">刷新</string>
+    <string name="refreshing">刷新中，请稍后...</string>
+    <string name="system_setting">系统设置</string>
+    <string name="ble_name">蓝牙名称</string>
+    <string name="reset_all_settings">恢复出厂设置</string>
+    <string name="system_time_reset">系统时间已校正</string>
+    <string name="app_will_expire">警告：软件即将到期，请及时联系生产厂家</string>
+    <string name="app_expired">警告：软件时间已到期，请联系生产厂家</string>
+    <string name="water_pump_error">水泵故障</string>
+    <string name="change_humidity_piece">请及时更换主机加湿片</string>
+    <string name="new_fan_error">新风故障</string>
+    <string name="house_temperature_too_high">棚内温度过高</string>
+    <string name="house_temperature_too_low">棚内温度过低</string>
+    <string name="fungus_temperature_too_high">菌包温度过高</string>
+    <string name="fungus_temperature_too_low">菌包温度过低</string>
+    <string name="house_temperature_sensor_error">棚内温度传感器故障</string>
+    <string name="fungus_temperature_sensor_error">菌包温度传感器故障</string>
+    <string name="house_temperature">棚内温度</string>
+    <string name="fungus_temperature">菌包温度</string>
+    <string name="status">状态</string>
+    <string name="heat">加温</string>
+    <string name="cool">降温</string>
+    <string name="humidity_run_status">加湿运行状态</string>
+    <string name="new_fan_run_status">新风运行状态</string>
+    <string name="humidity_function">加湿功能</string>
+    <string name="new_fan_function">新风功能</string>
+    <string name="run_status">运行状态</string>
+    <string name="started">开启</string>
+    <string name="temperature_status">温度状态</string>
+    <string name="now_temperature">当前温度</string>
+    <string name="nothing">无</string>
+    <string name="ble_address">XX:XX:XX:XX:XX:XX</string>
+    <string name="title_activity_house_temperature_setting">棚内温控设置</string>
+    <string name="cool_function">降温功能</string>
+    <string name="cool_start_temperature">降温启动温度</string>
+    <string name="cool_stop_temperature">降温停止温度</string>
+    <string name="error_high_temperature">高温报警温度</string>
+    <string name="error_low_temperature">低温报警温度</string>
+    <string name="heat_function">加温功能</string>
+    <string name="heat_start_temperature">加温启动温度</string>
+    <string name="heat_stop_temperature">加热停止温度</string>
+    <string name="link_newfan">联动新风</string>
+    <string name="link_humidity">联动加湿</string>
+    <string name="title_activity_fungus_temperature_setting">菌包温控设置</string>
+    <string name="title_activity_humidity_setting">加湿设置</string>
+    <string name="title_activity_new_fan_setting">新风设置</string>
+</resources>
